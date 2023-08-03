@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService", "CartService.csproj", "{01D3FD3C-551A-416C-ADB2-F60AE15F4AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartService", "CartService.csproj", "{01D3FD3C-551A-416C-ADB2-F60AE15F4AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Tests", "..\CartService.Tests\CartService.Tests.csproj", "{38ACC9C7-F4EE-4A80-BA5E-9D9CB8236429}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{01D3FD3C-551A-416C-ADB2-F60AE15F4AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D3FD3C-551A-416C-ADB2-F60AE15F4AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D3FD3C-551A-416C-ADB2-F60AE15F4AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ACC9C7-F4EE-4A80-BA5E-9D9CB8236429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ACC9C7-F4EE-4A80-BA5E-9D9CB8236429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ACC9C7-F4EE-4A80-BA5E-9D9CB8236429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ACC9C7-F4EE-4A80-BA5E-9D9CB8236429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
