@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using CartService.Models;
+using CartService.Resources;
 
 namespace CartService.Interfaces
 {
@@ -8,6 +9,6 @@ namespace CartService.Interfaces
     {
         Task<Cart> GetCartAsync(Guid userId);
         Task UpdateCartAsync(Cart cart);
-        Task RemoveCartItemAsync(Guid cartId, Guid productId);
+        Task<OperationResponse<bool>> RemoveCartItemAsync(Guid cartId, Guid productId);
     }
 }

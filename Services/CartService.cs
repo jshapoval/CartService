@@ -7,6 +7,7 @@ using MediatR;
 
 namespace CartService.Services
 {
+    //логика для работы с корзиной пользователя
     public class CartService : ICartService
     {
         private readonly IMediator _mediator;

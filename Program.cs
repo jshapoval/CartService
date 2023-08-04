@@ -1,3 +1,4 @@
+using CartService.Resources;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
@@ -7,8 +8,7 @@ namespace CartService
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
-            //CreateHostBuilder(args).Build().CreateDbIfNotExists().Run();
+            CreateHostBuilder(args).Build().CreateDbIfNotExists().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

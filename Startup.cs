@@ -27,6 +27,7 @@ namespace CartService
             services.AddScoped<Services.CartService>();
 
             services.AddControllers();
+            //services.AddDbContext<ApiContext>(o => o.UseInMemoryDatabase(databaseName: "TrueCodeDb"));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
